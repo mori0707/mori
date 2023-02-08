@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+h1 {
+    font-size: 500px;
+}
+
+#mo {
+    color: red;
+}
+
+h2 {
+    width: 1000px;
+    background-color: aquamarine;
+}
