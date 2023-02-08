@@ -13,5 +13,8 @@ h2 {
     background-color: aquamarine;
 }
 h6 {
+    height: 30vw;
+    width: auto;
+    background-repeat: no-repeat;
     background-image: url(https://dic.pixiv.net/ogp?article_id=1235);
 }
