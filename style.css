@@ -1,0 +1,46 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(39, 38, 54);
+}
+header{
+    height: 10vh;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+#MainVue{
+    height: 50vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 30vw;
+}
+
+header div a{
+    margin: 4px;
+    color: rgb(242, 242, 242);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#mo {
+    color: red;
+}
+
+h2 {
+    width: 1000px;
+    background-color: aquamarine;
+}
+h6 {
+    height: 30vw;
+    width: auto;
+    background-repeat: no-repeat;
+    background-image: url(https://dic.pixiv.net/ogp?article_id=1235);
+}
