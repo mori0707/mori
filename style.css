@@ -2,6 +2,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(39, 38, 54);
 }
+section{
+    margin: 8vw;
+}
+#MainVue{
+    margin: 0;
+}
 header{
     height: 10vh;
     background-color: rgb(29, 28, 28);
@@ -26,6 +32,37 @@ header div a{
     color: rgb(242, 242, 242);
 }
 
+#body{
+    margin: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#body div{
+    display: flex;
+    margin-top: 20px;
+}
+
+.prof{
+    height: 30vh;
+
+}
+.name_tag{
+    font-size: 24px;
+}
+
+#body div .prof_name{
+    display: flex;
+    font-size: 36px;
+    padding-left: 12px;
+    flex-direction: column;
+    line-height: 60%;
+}
+
+#body div .prof_name .name_tag{
+    font-size: 16px;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -42,5 +79,9 @@ h6 {
     height: 30vw;
     width: auto;
     background-repeat: no-repeat;
-    background-image: url(https://dic.pixiv.net/ogp?article_id=1235);
+    background-image: url();
+}
+
+.spacer{
+    height: 12px;
 }
